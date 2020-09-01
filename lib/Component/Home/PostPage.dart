@@ -1,3 +1,4 @@
+import 'package:PoliticalParty/Component/Home/ProfileAvatarPage.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
@@ -13,12 +14,7 @@ class PostPage extends StatelessWidget {
         children: [
           Row(
             children: [
-              CircleAvatar(
-                radius: 20.0,
-                backgroundColor: Colors.grey[200],
-                backgroundImage: CachedNetworkImageProvider(
-                    'https://cdn.pixabay.com/photo/2018/04/18/18/56/user-3331256__340.png'),
-              ),
+              ProfileAvatarPage(),
               SizedBox(
                 width: 8.0,
               ),

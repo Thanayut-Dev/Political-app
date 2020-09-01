@@ -30,15 +30,17 @@ dependencies:
   cupertino_icons: ^0.1.3
   cached_network_image: ^2.3.1
   flutter_launcher_icons: ^0.7.5
+  material_design_icons_flutter: ^4.0.5345
+  fancy_bottom_navigation: ^0.3.2
 
   carousel_slider: ^2.2.1
-  font_awesome_flutter: ^8.8.1
-  fancy_bottom_navigation: ^0.3.2
-  provider: ^3.0.0+1
-  get_it: ^1.0.3+2
-  smooth_star_rating: ^1.0.3
+  # font_awesome_flutter: ^8.8.1
+  # fancy_bottom_navigation: ^0.3.2
+  # provider: ^3.0.0+1
+  # get_it: ^1.0.3+2
+  # smooth_star_rating: ^1.0.3
   # http: ^0.12.2
-  http: ^0.11.3+16
+  # http: ^0.11.3+16
 
 dev_dependencies:
   flutter_test:
